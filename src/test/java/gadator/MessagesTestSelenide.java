@@ -22,6 +22,11 @@ public class MessagesTestSelenide {
 
     private static String testConversationName;
 
+    private static void registerUser()
+    {
+        UserTestSelenide.registerUser(testUserName, testUserEmail, testUserPass);
+    }
+
     private static void loginUser()
     {
         UserTestSelenide.login(testUserName, testUserPass);
@@ -37,15 +42,19 @@ public class MessagesTestSelenide {
         UserTestSelenide.logout();
     }
 
-
+    private static void deleteUser()
+    {
+        UserTestSelenide.deleteUser(testUserName);
+    }
 
     @BeforeClass
     public static void openGadator()
     {
-        Selenide.open("https://gadator-testing.herokuapp.com/");
+        Selenide.open(testURL);
 
         testConversationName = "Conversation from " + (new Date()).toString();
 
+        registerUser();
         loginUser();
 
         $(By.partialLinkText("Conversations")).click();
@@ -89,5 +98,7 @@ public class MessagesTestSelenide {
         }
 
         logout();
+
+        deleteUser();
     }
 }

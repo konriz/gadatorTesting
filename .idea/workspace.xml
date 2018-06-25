@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b9a0d5d-6d2a-48c6-b1fe-a7c153961615" name="Default" comment="" />
+    <list default="true" id="0b9a0d5d-6d2a-48c6-b1fe-a7c153961615" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gadator/ConversationTestSelenide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gadator/ConversationTestSelenide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gadator/TestConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gadator/TestConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,45 +35,53 @@
       <file leaf-file-name="UserTestSelenide.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#2639#2640#0" expanded="true" />
+                <element signature="e#2679#2680#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConversationTestSelenide.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConversationTestSelenide.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gadator/ConversationTestSelenide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="741">
+              <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#1942#1943#0" expanded="true" />
+                <element signature="e#1987#1988#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessagesTestSelenide.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MessagesTestSelenide.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="707">
+              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gadator/TestConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -80,15 +95,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>https://gadator-testing.herokuapp.com/</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/gadator/GadatorTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gadator/TestConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
         <option value="$PROJECT_DIR$/src/test/java/gadator/TestSuiteSelenide.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gadator/TestConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java" />
         <option value="$PROJECT_DIR$/src/test/java/gadator/ConversationTestSelenide.java" />
         <option value="$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java" />
@@ -96,10 +119,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="985" />
-    <option name="width" value="935" />
+    <option name="x" value="51" />
+    <option name="width" value="934" />
     <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -229,18 +253,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTestSelenide_loginAsAdminAndLogout - 2018.06.25 at 18h 31m 06s.xml">
-      <configuration name="UserTestSelenide.loginAsAdminAndLogout" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConversationTestSelenide_createConversationAsTestUser - 2018.06.25 at 18h 33m 49s.xml">
-      <configuration name="ConversationTestSelenide.createConversationAsTestUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConversationTestSelenide_deleteConversationAsAdmin - 2018.06.25 at 18h 39m 25s.xml">
-      <configuration name="ConversationTestSelenide.deleteConversationAsAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConversationTestSelenide_deleteConversationAsAdmin - 2018.06.25 at 18h 39m 47s.xml">
-      <configuration name="ConversationTestSelenide.deleteConversationAsAdmin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MessagesTestSelenide_addMessageToConversationAsTestUser - 2018.06.25 at 18h 47m 02s.xml">
       <configuration name="MessagesTestSelenide.addMessageToConversationAsTestUser" configurationId="JUnit" />
     </history-entry>
@@ -259,31 +271,44 @@
     <history-entry file="GadatorTestSuite - 2018.06.25 at 19h 05m 23s.xml">
       <configuration name="GadatorTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserTestSelenide_loginAsAdminAndLogout - 2018.06.25 at 20h 50m 23s.xml">
+      <configuration name="UserTestSelenide.loginAsAdminAndLogout" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTestSelenide_createUser - 2018.06.25 at 20h 51m 32s.xml">
+      <configuration name="UserTestSelenide.createUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.06.25 at 20h 59m 53s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTestSelenide_createValidUserAndLogin - 2018.06.25 at 21h 10m 14s.xml">
+      <configuration name="UserTestSelenide.createValidUserAndLogin" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1875" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32819384" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32747254" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6530837" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6527473" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32967034" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5407772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.106732346" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" order="2" weight="0.32950193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -295,86 +320,63 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/TestSuiteSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="629">
+          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        <state relative-caret-position="629">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/ConversationTestSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="561">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -382,16 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -399,41 +392,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/TestConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenium.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/GadatorTestSelenide.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/4.2.1/selenide-4.2.1.jar!/com/codeborne/selenide/Condition.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="113" column="28" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="28" />
-          <folding>
-            <element signature="e#3775#3776#0" expanded="true" />
-            <element signature="e#3813#3814#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,24 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk-8u172.d/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="654">
           <caret line="459" column="25" selection-start-line="459" selection-start-column="25" selection-end-line="459" selection-end-column="25" />
-          <folding>
-            <element signature="e#18056#18057#0" expanded="true" />
-            <element signature="e#18138#18139#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,32 +425,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/UserTestSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gadator/ConversationTestSelenide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="741">
+          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/TestConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gadator/MessagesTestSelenide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,11 +2,13 @@ package gadator;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.exist;
+import static com.codeborne.selenide.Condition.matchesText;
 import static com.codeborne.selenide.Selenide.$;
 import static gadator.TestConstants.*;
 
@@ -18,8 +20,7 @@ public class UserTestSelenide {
     @BeforeClass
     public static void openGadator()
     {
-
-        Selenide.open("https://gadator-testing.herokuapp.com/");
+        Selenide.open(testURL);
     }
 
     public static void login(String username, String password)
@@ -42,17 +43,30 @@ public class UserTestSelenide {
     {
         login(adminName, adminPass);
 
-        $(By.xpath("//div[@id='identity-label']/p")).shouldHave(Condition.matchesText("admin"));
+        $(By.xpath("//div[@id='identity-label']/p")).shouldHave(Condition.matchesText(adminName));
         $(By.partialLinkText("Logout")).should(exist);
 
         $(By.partialLinkText("Logout")).click();
         $(By.partialLinkText("Login")).should(exist);
     }
 
+    public static void registerUser(String username, String email, String password)
+    {
+        $("#registration-button").click();
+        $("#name").setValue(username);
+        $("#email").setValue(email);
+        $("#password").setValue(password);
+        $("#confirmPassword").setValue(password);
+        $(By.xpath("//form/input[@type='submit']")).click();
+    }
 
     @Test
-    public void grantedUserExists_loginAsUserAndLogout()
+    public void createValidUserAndLogin()
     {
+        registerUser(testUserName, testUserEmail, testUserPass);
+
+        $(By.xpath("//body/h1")).shouldHave(matchesText(testUserName));
+
         login(testUserName, testUserPass);
 
         $(By.xpath("//div[@id='identity-label']/p")).shouldHave(Condition.matchesText(testUserName));
@@ -60,32 +74,33 @@ public class UserTestSelenide {
 
         $(By.partialLinkText("Logout")).click();
         $(By.partialLinkText("Login")).should(exist);
+
+    }
+
+    // TODO this should be also tested!
+
+    public static void deleteUser(String userName)
+    {
+        login(adminName, adminPass);
+        $(By.partialLinkText("Users")).click();
+        $(By.partialLinkText(userName)).click();
+        $(By.partialLinkText("Delete")).click();
+        $(By.tagName("form")).submit();
+        logout();
+    }
+
+    @AfterClass
+    public static void tearUp()
+    {
+        deleteUser(testUserName);
     }
 
 
 
-//        forbidden
-//    @Test
-//    public void createUser()
-//    {
-//        final String username = "tester";
-//        final String email = "tester@user.com";
-//        final String password = "examplePassword";
-//
-//        register(username, email, password);
-//
-//        $(By.xpath("//body/h1")).shouldHave(textCaseSensitive("Welcome " + username));
-//    }
-//
-//    private void register(String username, String email, String password)
-//    {
-//        $("#registration-button").click();
-//        $("#name").setValue(username);
-//        $("#email").setValue(email);
-//        $("#password").setValue(password);
-//        $("#confirmPassword").setValue(password);
-//        $(By.xpath("//form/input[@type='submit']")).click();
-//    }
+
+
+
+
 
 
 }

@@ -2,6 +2,7 @@ package gadator;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -24,7 +25,8 @@ public class ConversationTestSelenide {
     @BeforeClass
     public static void openGadator()
     {
-        Selenide.open("https://gadator-testing.herokuapp.com/");
+        Selenide.open(testURL);
+        UserTestSelenide.registerUser(testUserName, testUserEmail, testUserPass);
     }
 
     @Before
@@ -64,6 +66,12 @@ public class ConversationTestSelenide {
         $(By.partialLinkText(testConversationName)).shouldNot(Condition.exist);
 
         logout();
+    }
+
+    @AfterClass
+    public static void tearUp()
+    {
+        UserTestSelenide.deleteUser(testUserName);
     }
 
 }
