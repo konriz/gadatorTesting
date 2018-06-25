@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+    <meta charset="UTF-8" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<nav><nav class="navigation">
+
+    <ul>
+
+        <li id="home-button"><a href="/">Home</a></li>
+        <li id="registration-button"><a href="/user/registration">Registration</a></li>
+        <li id="login-button"><a href="/login">Login</a></li>
+    </ul>
+
+    
+
+</nav></nav>
+
+<div>
+    Invalid username and password.
+</div>
+
+<form action="/login" method="post"><input name="_csrf" value="1e9187b9-9e9b-443f-9ce4-f202976affbf" type="hidden" />
+    <div>
+        <label for="name-login">User Name :</label>
+        <input id="name-login" name="username" type="text" />
+    </div>
+    <div>
+        <label for="password-login">Password:</label>
+        <input id="password-login" name="password" type="password" />
+    </div>
+    <div>
+        <input id="submit-login" value="Sign In" type="submit" />
+    </div>
+</form>
+
+<div><div id="footer">
+    <p>by Konriz</p>
+</div></div>
+
+
+</body></html>

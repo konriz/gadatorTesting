@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+    <meta charset="UTF-8" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<nav><nav class="navigation">
+
+    <ul>
+
+        <li id="home-button"><a href="/">Home</a></li>
+        <li id="registration-button"><a href="user/registration">Registration</a></li>
+        <li id="login-button"><a href="/login">Login</a></li>
+    </ul>
+
+    
+
+</nav></nav>
+
+<h1>Registration</h1>
+
+<form action="/user/registration" method="post"><input name="_csrf" value="519f73f0-8ec2-4328-abf5-97cd60357a46" type="hidden" />
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" value="" type="text" />
+        
+    </div>
+
+    <div>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" value="" type="email" />
+        
+    </div>
+
+
+    <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" value="" type="password" />
+        
+    </div>
+
+    <div>
+        <label for="confirmPassword">Confirm password</label>
+        <input id="confirmPassword" name="matchingPassword" value="" type="password" />
+    </div>
+
+    <input value="Register!" type="submit" />
+
+</form>
+
+<div><div>
+    <p class="footer">by Konriz</p>
+</div></div>
+
+
+</body></html>
