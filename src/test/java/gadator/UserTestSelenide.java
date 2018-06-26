@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.exist;
+import static com.codeborne.selenide.Condition.matchText;
 import static com.codeborne.selenide.Condition.matchesText;
 import static com.codeborne.selenide.Selenide.$;
 import static gadator.TestConstants.*;
@@ -77,6 +78,14 @@ public class UserTestSelenide {
 
     }
 
+    @Test
+    public void loginAsInvalidUser_thenInvalidLogin()
+    {
+        login("invalidName", "invalidPassword");
+        $(By.id("invalid-login")).shouldHave(matchText("Invalid username and password"));
+
+    }
+
     // TODO this should be also tested!
 
     public static void deleteUser(String userName)
@@ -94,13 +103,5 @@ public class UserTestSelenide {
     {
         deleteUser(testUserName);
     }
-
-
-
-
-
-
-
-
 
 }

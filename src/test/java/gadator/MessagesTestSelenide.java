@@ -61,8 +61,6 @@ public class MessagesTestSelenide {
         $(By.partialLinkText("Create new")).click();
         $("#name").setValue(testConversationName).pressEnter();
 
-        logout();
-        loginUser();
     }
 
     @Test
