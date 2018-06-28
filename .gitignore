@@ -1,5 +1,7 @@
 target/
 
+build/
+
 .idea/workspace.xml
 
 # Compiled class file
