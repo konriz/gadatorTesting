@@ -48,7 +48,7 @@ public class MessagesTestSelenide {
     }
 
     @BeforeClass
-    public static void openGadator()
+    public static void createTestUserAndTestConversation()
     {
         Selenide.open(testURL);
 
@@ -87,13 +87,9 @@ public class MessagesTestSelenide {
         logout();
         loginAdmin();
         $(By.partialLinkText("Conversations")).click();
-
-        for (WebElement conversation : $$(By.partialLinkText("Conversation from")))
-        {
-            conversation.click();
-            $(By.partialLinkText("Delete conversation")).click();
-            $(By.xpath("//form")).submit();
-        }
+        $(By.partialLinkText(testConversationName)).click();
+        $(By.partialLinkText("Delete conversation")).click();
+        $(By.xpath("//form")).submit();
 
         logout();
 
